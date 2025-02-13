@@ -1,0 +1,22 @@
+body{
+    font-family: montserrat, sans-serif;
+    background-color: black;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    background-color: black;
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    background-color: red;
+}
+.main-content{
+    background-color: darkblue;
+}
+.player{
+    background-color: greenyellow;
+}
