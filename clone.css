@@ -47,14 +47,9 @@ body{
     background-color: #121212;
     color: white;
 }
-
-#search{
-    background-color: transparent;
-    color: white;
-    border: none;
-    height: 40px;
-    width: 40px;
-    left: 0px;
+.search .fa-magnifying-glass{
+    position: absolute;
+    padding: 15px;
 }
 #box{
     background-color: #121212;
@@ -63,4 +58,10 @@ body{
     padding: 14px 66px 14px 48px;
     font-weight: 600;
     font-size: 14px;
+}
+
+.search .fa-folder-open{
+    position: absolute;
+    padding: 15px;
+    left: 19em;
 }
