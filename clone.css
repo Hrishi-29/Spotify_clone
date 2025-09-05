@@ -13,6 +13,7 @@ body{
 }
 
 .navbar{
+    display: flex;
     background-color: black;
     position: fixed;
     top: 0;
@@ -25,7 +26,8 @@ body{
     background-color: #121212;
     width: 340px;
     border-radius: 1rem;
-
+    margin-top: 66px;
+    margin-bottom: 74px;
 }
 .main-content{
     background-color: #121212;
@@ -40,6 +42,15 @@ body{
     height: 72px;
 }
 
+.logo{
+    background-image: url("./assets/logo2.png");
+    height: 2rem;
+    width: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0.5rem 0.7rem 0rem 0.7rem;
+}
 #btn{
     height: 40px;
     width: 40px;
@@ -59,10 +70,29 @@ body{
     padding: 14px 66px 14px 48px;
     font-weight: 600;
     font-size: 14px;
+    opacity: 0.7;
 }
 
-.search .fa-folder-open{
+#box:hover{
+    background-color: #121212;
+    border-radius: 5rem;
+    border: none;
+    padding: 14px 66px 14px 48px;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 1;
+}
+
+.search .fa-window-maximize{
     position: absolute;
     padding: 15px;
-    left: 19em;
+    left: 22.7em;
+    opacity: 0.7;
+}
+
+.search .fa-window-maximize:hover{
+    position: absolute;
+    padding: 15px;
+    left: 22.7em;
+    opacity: 1;
 }
