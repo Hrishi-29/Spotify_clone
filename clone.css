@@ -26,13 +26,14 @@ body{
     background-color: #121212;
     width: 340px;
     border-radius: 1rem;
-    margin-top: 66px;
-    margin-bottom: 74px;
+    margin: 4.2rem 0.2rem 4.7rem 0.8rem;
 }
 .main-content{
     background-color: #121212;
     flex: 1;
     overflow: auto;
+    border-radius: 1rem;
+    margin: 4.2rem 0.8rem 4.7rem 0.6rem;
 }
 .player{
     background-color: black;
@@ -52,13 +53,25 @@ body{
     margin: 0.5rem 0.7rem 0rem 0.7rem;
 }
 #btn{
-    height: 40px;
-    width: 40px;
+    height: 2.8rem;
+    width: 2.8rem;
     border-radius: 50%;
     border: none;
     background-color: #121212;
     color: white;
+    opacity: 0.7;
 }
+
+#btn:hover{
+    height: 2.8rem;
+    width: 2.8rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #121212;
+    color: white;
+    opacity: 1;
+}
+
 .search .fa-magnifying-glass{
     position: absolute;
     padding: 15px;
@@ -67,9 +80,10 @@ body{
     background-color: #121212;
     border-radius: 5rem;
     border: none;
-    padding: 14px 66px 14px 48px;
+    padding: 15px 66px 15px 48px;
     font-weight: 600;
     font-size: 14px;
+    width: 310px;
     opacity: 0.7;
 }
 
@@ -86,7 +100,7 @@ body{
 .search .fa-window-maximize{
     position: absolute;
     padding: 15px;
-    left: 22.7em;
+    left: 29.7em;
     opacity: 0.7;
 }
 
