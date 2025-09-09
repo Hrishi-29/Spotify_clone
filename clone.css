@@ -135,8 +135,24 @@ a{
 }
 
 .lib-box{
+
+}
+.box{
     background-color: #232323;
-    height: 150px;
+    height: 9rem;
     margin: 1rem 0.5rem;
     border-radius: 1rem;
+    padding: 0.6rem 1rem 0.1rem 1rem;
+}
+.p2-box{
+    font-size: 0.8rem;
+}
+
+.badge{
+    border-radius: 20px;
+    width: 8.5rem;
+    height: 2rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-top: 15px;
 }
