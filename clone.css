@@ -118,6 +118,8 @@ a{
 }
 
 .option{
+    position: sticky;
+    top: 0;
     height: 28px;
     display: flex;
     justify-content: space-between;
@@ -135,24 +137,76 @@ a{
 }
 
 .lib-box{
-
+    overflow: auto;
 }
 .box{
     background-color: #232323;
     height: 9rem;
     margin: 1rem 0.5rem;
     border-radius: 1rem;
-    padding: 0.6rem 1rem 0.1rem 1rem;
+    padding: 0.4rem 1rem 0.1rem 1rem;
 }
 .p2-box{
     font-size: 0.8rem;
 }
 
 .badge{
+    border: none;
     border-radius: 20px;
     width: 8.5rem;
-    height: 2rem;
+    height: 2.4rem;
     font-weight: 800;
     font-size: 0.9rem;
     margin-top: 15px;
+}
+
+.badge1{
+    border: none;
+    border-radius: 20px;
+    width: 9.5rem;
+    height: 2.4rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+.tags{
+    position: sticky;
+    bottom: 0;
+}
+
+.tagslist{
+    padding: 1rem 1.5rem 0.8rem 1.5rem;
+    font-size: 0.6rem;
+    line-height: 2rem;
+}
+
+.lang{
+    border-color: white;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 25px;
+    background-color:  #121212;
+    color: white;
+    opacity: 0.7;
+}
+
+.lang:hover{
+    border-color: white;
+    border-radius: 20px;
+    width: 6rem;
+    height: 2rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 25px;
+    background-color:  #121212;
+    color: white;
+    opacity: 1;
+}
+
+.tagslist a{
+    margin-left: 8px;
 }
