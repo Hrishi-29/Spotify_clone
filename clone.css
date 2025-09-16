@@ -6,6 +6,9 @@ body, main{
     padding: 0;
     overflow: hidden;
 }
+
+/*Whole site*/
+
 .main{
     display: flex;
     height: 97vh;
@@ -13,60 +16,44 @@ body, main{
     margin: 0.5em;
 }
 
+/*Whole site end*/
+
+/*Navbar Starts*/
+
 .navbar{
     flex: 1;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: black;
     border-radius: 1em;
     display: flex;
     justify-content: space-between;
+    text-align: center;
+    align-items: center;
 }
 
-.container{
-    flex:9;
-    border: 2px solid red;
+/*left-nav Starts*/
+
+.left-nav{
+    flex: 1 1 4rem;
+    /*border: 2px solid red;*/
     border-radius: 1em;
     display: flex;
-    margin: 0.5em 0em;
-    gap: 0.5em;
-}
-
-.sidebar{
-    flex: 1;
-    border: 2px solid red;
-    background-color: #121212;
-    border-radius: 1em;
-}
-
-.main-content{
-    flex: 1.6;
-    border: 2px solid red;
-    background-color: #121212;
-    border-radius: 1em;
-    overflow: auto;
-}
-
-.play{
-    /*position: sticky;*/
-    flex: 1;
-    border: 2px solid red;
-    background-color: black;
-    border-radius: 1em;
-    bottom: 0;
+    align-items: center;
 }
 
 .logo{
     background-image: url("./assets/logo2.png");
-    height: 2rem;
-    width: 2rem;
+    height: 2.2rem;
+    width: 2.2rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0.5rem 0.7rem 0rem 0.7rem;
+    margin: 0.5rem 1.3rem;
 }
+
 #btn{
-    height: 2.8rem;
-    width: 2.8rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     border: none;
     background-color: #121212;
@@ -75,8 +62,8 @@ body, main{
 }
 
 #btn:hover{
-    height: 2.8rem;
-    width: 2.8rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     border: none;
     background-color: #121212;
@@ -92,10 +79,11 @@ body, main{
     background-color: #121212;
     border-radius: 5rem;
     border: none;
-    padding: 15px 66px 15px 48px;
+    padding: 16px 66px 16px 48px;
     font-weight: 600;
     font-size: 14px;
-    width: 310px;
+    width: 350px;
+    /*height: 3rem;*/
     opacity: 0.7;
 }
 
@@ -103,24 +91,25 @@ body, main{
     background-color: #121212;
     border-radius: 5rem;
     border: none;
-    padding: 15px 66px 15px 48px;
+    padding: 16px 66px 16px 48px;
     font-weight: 600;
     font-size: 14px;
-    width: 310px;
+    width: 350px;
+    /*height: 3rem;*/
     opacity: 1;
 }
 
 .search .fa-window-maximize{
     position: absolute;
     padding: 15px;
-    left: 29.7em;
+    left: 33.7em;
     opacity: 0.7;
 }
 
 .search .fa-window-maximize:hover{
     position: absolute;
     padding: 15px;
-    left: 29.7em;
+    left: 33.7em;
     opacity: 1;
 }
 
@@ -148,9 +137,105 @@ a{
     opacity: 1;
 }
 
-.lib-box{
+/*left-nav Ends*/
+
+/*right-nav Starts*/
+
+.right-nav{
+    flex: 1;
+    /*border: 2px solid red;*/
+    border-radius: 1em;
+    display: flex;
+    gap: 0.1rem;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#btn-nav{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+#btn-nav:hover{
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.right-nav a{
+    font-weight: 600;
+    opacity: 0.7;
+    margin: 0 1.8rem;
+}
+
+.right-nav a:hover{
+    font-weight: 600;
+    opacity: 1;
+    margin: 0 1.8rem;
+}
+
+#btn-log{
+    border: none;
+    border-radius: 30px;
+    width: 6rem;
+    height: 3rem;
+    font-weight: 800;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+/*right-nav Ends*/
+
+/*Navbar Ends*/
+
+.container{
+    flex:9;
+    border: 2px solid red;
+    border-radius: 1em;
+    display: flex;
+    margin: 0.5em 0em;
+    gap: 0.5em;
+}
+
+/*Sidebar-Starts*/
+
+.sidebar{
+    flex: 1;
+    border: 2px solid red;
+    background-color: #121212;
+    border-radius: 1em;
+}
+
+/*Sidebar-Ends*/
+
+.main-content{
+    flex: 2.4;
+    border: 2px solid red;
+    background-color: #121212;
+    border-radius: 1em;
     overflow: auto;
 }
+
+.play{
+    /*position: sticky;*/
+    flex: 1;
+    border: 2px solid red;
+    background-color: black;
+    border-radius: 1em;
+    bottom: 0;
+}
+
+/*.lib-box{
+    overflow: auto;
+}
+
 .box{
     background-color: #232323;
     height: 9rem;
@@ -222,4 +307,4 @@ a{
 
 .tagslist a{
     margin-left: 8px;
-}
+}*/
