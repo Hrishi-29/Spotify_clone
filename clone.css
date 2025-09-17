@@ -186,7 +186,7 @@ a{
 
 .container{
     flex:9;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     border-radius: 1em;
     display: flex;
     margin: 0.5em 0em;
@@ -200,24 +200,53 @@ a{
     border: 2px solid red;
     background-color: #121212;
     border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    /*align-content: space-between;*/
+    /*gap: 3rem;*/
 }
 
 .option{
     background-color: #121212;
-    top: 0;
+    /*top: 0;*/
     height: 12%;
-    position: sticky;
+    /*position: sticky;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0rem 1.3rem 0.7rem 1.2rem;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1.2vw;
     border-radius: 1em 1em 0em 0em;
+    border: 2px solid red;
 }
 
 .lib-box{
     overflow: auto;
+    height: 50%;
+    border: 2px solid red;
+}
+
+.box{
+    background-color: #232323;
+    height: 7rem;
+    margin: 1rem 0.5rem;
+    border-radius: 1rem;
+    padding: 0.4rem 1rem 0.1rem 1rem;
+    line-height: 0.5rem;
+}
+
+.p2-box{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.tags{
+    /*position: sticky;*/
+    /*bottom: 0;*/
+    height: 38%;
+    border: 2px solid red;
+    border-radius: 0em 0em 1em 1em;
 }
 
 /*Sidebar-Ends*/
