@@ -14,6 +14,7 @@ body, main{
     height: 97vh;
     flex-direction: column;
     margin: 0.5em;
+    gap: 0.3em;
 }
 
 /*Whole site end*/
@@ -189,8 +190,9 @@ a{
     /*border: 2px solid red;*/
     border-radius: 1em;
     display: flex;
-    margin: 0.5em 0em;
+    /*margin: 0.2em 0em 0.5em 0em;*/
     gap: 0.5em;
+    height: 80%;
 }
 
 /*Sidebar-Starts*/
@@ -202,38 +204,42 @@ a{
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
+    height: auto;
     /*align-content: space-between;*/
     /*gap: 3rem;*/
+    scrollbar-gutter: stable;
 }
 
 .option{
     background-color: #121212;
-    /*top: 0;*/
-    height: 10%;
-    /*position: sticky;*/
+    /*height: 28px;*/
+    top: 0;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0rem 1.3rem 1.4rem 1.2rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
     font-weight: 600;
-    font-size: 1vw;
+    font-size: 1.3vw;
     border-radius: 0.5em 0.5em 0em 0em;
+    flex: 0.25;
     /*border: 2px solid red;*/
 }
 
 .lib-box{
     overflow: auto;
-    height: 49%;
+    flex: 1.25;
+    /*height: 59%;*/
     /*border: 2px solid red;*/
-    display: flex;
+  /*  display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;*/
 }
 
 .box{
     background-color: #232323;
-    height: 7.8rem;
-    margin: 0rem 0.4rem 0rem 0.4rem;
+    height: 7.7rem;
+    margin: 0rem 0.4rem 1rem 0.4rem;
     border-radius: 0.5rem;
     padding: 0.4rem 1rem 0.1rem 1rem;
     line-height: 0.7rem;
@@ -270,16 +276,17 @@ a{
 }
 
 .tags{
-    /*position: sticky;*/
-    /*bottom: 0;*/
-    height: 41%;
+    position: sticky;
+    bottom: 0;
+    flex: 1;
+    /*height: 37%;*/
     /*border: 2px solid red;*/
     border-radius: 0em 0em 0.5em 0.5em;
 }
 
 .tagslist{
     margin-top: 2rem;
-    padding: 1rem 1.5rem 0.8rem 1.3rem;
+    padding: 0rem 3rem 2rem 1.3rem;
     font-size: 0.65rem;
     line-height: 2rem;
 }
@@ -301,7 +308,7 @@ a{
     height: 2rem;
     font-weight: 800;
     font-size: 0.8rem;
-    margin-top: 25px;
+    margin-top: 15px;
     background-color:  #121212;
     color: white;
     opacity: 0.7;
@@ -314,7 +321,7 @@ a{
     height: 2rem;
     font-weight: 800;
     font-size: 0.8rem;
-    margin-top: 25px;
+    margin-top: 15px;
     background-color:  #121212;
     color: white;
     opacity: 1;
@@ -325,15 +332,19 @@ a{
 /*Main-Starts*/
 
 .main-content{
-    flex: 2.2;
+    flex: 2.3;
     border: 2px solid red;
     background-color: #121212;
     border-radius: 1em;
     overflow: auto;
 }
 
+
+
+/*Main-Ends*/
+
 .play{
-    /*position: sticky;*/
+    position: sticky;
     flex: 1;
     border: 2px solid red;
     background-color: black;
