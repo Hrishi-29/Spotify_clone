@@ -333,13 +333,47 @@ a{
 
 .main-content{
     flex: 2.3;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: #121212;
     border-radius: 1em;
     overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
+.card{
+    background-color:  transparent;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    /*margin-left: 1.5rem;*/
+}
 
+.card:hover{
+    background-color:  #232323;
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.7rem;
+    /*margin-left: 1.5rem;*/
+}
+
+.cards-container{
+    display: flex;
+    /*flex-wrap: wrap;*/
+}
+
+.c-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.c-title{
+    font-weight: 600;
+}
+
+.c-info{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
 
 /*Main-Ends*/
 
