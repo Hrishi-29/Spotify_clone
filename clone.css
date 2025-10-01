@@ -392,11 +392,34 @@ a{
 /*Main-Ends*/
 
 .play{
+    display: flex;
     position: sticky;
     flex: 1;
     border: 2px solid red;
     background-color: black;
     border-radius: 1em;
     bottom: 0;
+    text-align: center;
 }
 
+.album{
+    width: 25%;
+    border: 2px solid red;
+    border-radius: 1em;
+}
+
+.player{
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 1em;
+}
+
+.control{
+    width: 25%;
+    border: 2px solid red;
+    border-radius: 1em;
+}
+
+.i-img{
+    height: 1rem;
+}
