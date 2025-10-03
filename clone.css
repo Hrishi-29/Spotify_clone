@@ -391,11 +391,13 @@ a{
 
 /*Main-Ends*/
 
+/*Player-Option_Starts*/
+
 .play{
     display: flex;
     position: sticky;
     flex: 1;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     background-color: black;
     border-radius: 1em;
     bottom: 0;
@@ -414,14 +416,83 @@ a{
     border-radius: 1em;
 }
 
+.player-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem;
+}
+
 .i-img{
     height: 1rem;
+    margin-left: 1.7rem;
+    opacity: 0.7;
+}
+
+.i-img:hover{
+    height: 1rem;
+    margin-left: 1.7rem;
+    opacity: 1;
 }
 
 .iplay-img{
-    height: 1.5rem;
+    height: 2rem;
+    margin-left: 1.7rem;
+}
+
+.player-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.player-bar:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+
+.curr-time{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 0.4rem;
+}
+
+.bar{
+    width: 60%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bar::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.bar::-webkit-slider-runnable-track:hover{
+    background-color: #1bd760;
+    border-radius: 100px;
+    height: 0.2rem;
+}
+
+.bar::-webkit-slider-thumb{
+    appearance: none;
+    height: 0.9rem;
+    width: 0.9rem;
     position: relative;
-    top: 0.2rem;
+    top: -0.4rem;
+    background-color: #ddd;
+    border-radius: 50%;
+}
+
+.tot-time{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.4rem;
 }
 
 .control{
@@ -429,3 +500,5 @@ a{
     border: 2px solid red;
     border-radius: 1em;
 }
+
+/*Player-Option_Ends*/
