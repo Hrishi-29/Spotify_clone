@@ -407,12 +407,30 @@ a{
 /*left_play-Starts*/
 
 .album{
+    display: flex;
     width: 25%;
-    border: 2px solid red;
-    border-radius: 1em;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
 }
 
+.nameplate{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 1rem;
+}
 
+.a-img{
+    height: 4.5rem;
+}
+
+.vidtype{
+    flex: 1;
+    border: 2px solid red;
+    border-radius: 1rem;
+}
 
 /*left_play-Ends*/
 
