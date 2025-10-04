@@ -404,11 +404,17 @@ a{
     text-align: center;
 }
 
+/*left_play-Starts*/
+
 .album{
     width: 25%;
     border: 2px solid red;
     border-radius: 1em;
 }
+
+
+
+/*left_play-Ends*/
 
 .player{
     width: 50%;
