@@ -549,10 +549,16 @@ a{
     margin-left: 0.4rem;
 }
 
+/*right_play-Starts*/
+
 .control{
     width: 25%;
     border: 2px solid red;
     border-radius: 1em;
 }
+
+
+
+/*right_play-Ends*/
 
 /*Player-Option_Ends*/
