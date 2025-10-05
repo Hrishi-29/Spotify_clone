@@ -409,27 +409,57 @@ a{
 .album{
     display: flex;
     width: 25%;
+    justify-content: center;
+    align-items: center;
     /*border: 2px solid red;
     border-radius: 1em;*/
 }
 
 .nameplate{
     flex: 1;
+    height: 4.3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
-    border-radius: 1rem;
+   /* border: 2px solid red;
+    border-radius: 1rem;*/
 }
 
 .a-img{
-    height: 4.5rem;
+    height: 80%;
+}
+
+.n-title{
+    font-size: 0.7rem;
+    position: relative;
+    left: 0.9rem;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.n-title span{
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .vidtype{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex: 1;
-    border: 2px solid red;
-    border-radius: 1rem;
+    height: 4.3rem;
+    /*border: 2px solid red;
+    border-radius: 1rem;*/
+}
+
+.a-img1{
+    height: 30%;
+    margin-left: 1rem;
+}
+
+.a-img2{
+    height: 45%;
+    margin-left: 0.5rem;
 }
 
 /*left_play-Ends*/
