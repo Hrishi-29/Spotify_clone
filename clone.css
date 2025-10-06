@@ -466,8 +466,8 @@ a{
 
 .player{
     width: 50%;
-    border: 2px solid red;
-    border-radius: 1em;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
 }
 
 .player-control{
@@ -514,26 +514,26 @@ a{
     margin-right: 0.4rem;
 }
 
-.bar{
+.bar1{
     width: 60%;
     appearance: none;
     background-color: transparent;
     cursor: pointer;
 }
 
-.bar::-webkit-slider-runnable-track{
+.bar1::-webkit-slider-runnable-track{
     background-color: #ddd;
     border-radius: 100px;
     height: 0.2rem;
 }
 
-.bar::-webkit-slider-runnable-track:hover{
+.bar1::-webkit-slider-runnable-track:hover{
     background-color: #1bd760;
     border-radius: 100px;
     height: 0.2rem;
 }
 
-.bar::-webkit-slider-thumb{
+.bar1::-webkit-slider-thumb{
     appearance: none;
     height: 0.9rem;
     width: 0.9rem;
@@ -553,11 +553,91 @@ a{
 
 .control{
     width: 25%;
-    border: 2px solid red;
-    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
+}
+
+.c-icons{
+    flex: 1;
+    height: 4.3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
+}
+
+.c-icon1{
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.c-icon2{
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.c-icon3{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.c-icon4{
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+.vol{
+    flex: 1;
+    height: 4.3rem;
+    display: flex; 
+    align-items: center;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
+    opacity: 0.7;
+}
+
+.vol:hover{
+    flex: 1;
+    height: 4.3rem;
+    display: flex; 
+    align-items: center;
+    /*border: 2px solid red;
+    border-radius: 1em;*/
+    opacity: 1;
+}
+
+.c-icon5{
+    height: 2.2rem;
+    margin-right: 0.5rem;
+}
+
+.bar2{
+    width: 60%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bar2::-webkit-slider-runnable-track{
+    background-color: #ddd;
+    border-radius: 100px;
+    height: 0.2rem;
 }
 
 
+.bar2::-webkit-slider-thumb{
+    appearance: none;
+    height: 0.9rem;
+    width: 0.9rem;
+    position: relative;
+    top: -0.4rem;
+    background-color: #ddd;
+    border-radius: 50%;
+}
 
 /*right_play-Ends*/
 
